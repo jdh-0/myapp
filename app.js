@@ -2,7 +2,7 @@ const http = require('http');
 const port = 3000
 
 
-// 1. 요청한 url을 객체로 만들기 위해 url 모듈사용
+// 1. 요청한 url을 객체로 만들기 위해 url 모듈사용!
 var url = require('url');
 // 2. 요청한 url 중에 Query String 을 객체로 만들기 위해 querystring 모듈 사용
 var querystring = require('querystring'); 
